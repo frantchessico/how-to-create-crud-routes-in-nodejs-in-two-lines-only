@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
-app.use('/api/goals', router); 
+app.use('/api/products', router); 
 
 
 const port = process.env.PORT || 4200;
